@@ -1,0 +1,46 @@
+# Open Veritas .gitignore
+
+# Python exclusions
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# JavaScript exclusions
+node_modules/
+*.log
+npm-debug.log
+
+# Git and misc
+.git/
+.gitignore
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Testing and coverage
+.coverage
+.tox/
+.pytest_cache/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Packaging exclusions (per build guide)
+__pycache__/
+.git/

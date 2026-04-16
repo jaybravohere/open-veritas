@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Open Veritas — BEk Truth Engine",
+  "version": "1.0.0",
+  "description": "Real-time detection of 8 deception operators, φ-harmonic structure, and Bravo Score using Bravo-Entropy Kinetics v8.2",
+  "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"],
+    "run_at": "document_idle"
+  }],
+  "action": { "default_popup": "popup/popup.html" },
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": ["<all_urls>"]
+}
