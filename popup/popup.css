@@ -1,0 +1,46 @@
+/* popup.css - Shared CSS for popup and sidebar */
+
+body {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+#status {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  min-height: 100px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Badge styles (shared with sidebar) */
+.badge {
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+}
